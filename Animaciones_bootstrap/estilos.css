@@ -1,0 +1,16 @@
+.btn-modern {
+    padding: 10px;
+    margin: 50px;
+    background-color: aquamarine;
+    color: blueviolet;
+
+
+}
+
+.btn-modern:hover {
+    transform: translateY(-5);
+    box-shadow: 2px;
+    background-color: rgb(35, 26, 136);
+    color: rgb(204, 204, 221);
+    transform: transition all 0.4s;
+}

@@ -1,0 +1,30 @@
+
+.btn-modern {
+    padding: 15px 30px;
+    background-color: rgb(233, 233, 241);
+    color: rgb(68, 0, 255);
+    
+}
+
+.btn-modern:hover {
+    animation: translation 0.4s;
+   
+
+}
+
+@keyframes translation {
+    0% {
+        background-color: aliceblue;
+       
+    }
+
+    50% {
+        box-shadow: 10px 5px 5px black;
+    }
+
+    100% {
+        background-color: rgb(255, 230, 0);
+        color: rgb(251, 247, 247);
+        transform: translateY(-5px);
+    }
+}
